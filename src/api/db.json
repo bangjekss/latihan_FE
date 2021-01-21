@@ -1,0 +1,143 @@
+{
+  "userdb": [
+    {
+      "username": "ea",
+      "email": "ea@gmail.com",
+      "password": "Lolipop9098_",
+      "id": 1
+    },
+    {
+      "username": "ucok",
+      "email": "ucok@gmail.com",
+      "password": "Lolipop9098_",
+      "id": 2
+    }
+  ],
+  "productdb": [
+    {
+      "id": 1,
+      "name": "Digital Alliance UNICORN GAMING",
+      "price": 700000,
+      "stock": 5,
+      "image": "https://ecs7.tokopedia.net/img/cache/700/product-1/2019/7/23/67034112/67034112_7f237251-970b-4e3f-b853-ba2739814060_1000_1000.png",
+      "caption": "test-Caption A - The quick brown fox jumps over the lazy dog"
+    },
+    {
+      "id": 2,
+      "name": "Armagedon Nimitz",
+      "price": 900000,
+      "stock": 5,
+      "image": "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//94/MTA-3438742/armaggeddon_casing-pc-atx-armaggeddon-nimitz-tr5000_full02.jpg",
+      "caption": "test-Caption B - The quick brown fox jumps over the lazy dog"
+    },
+    {
+      "id": 3,
+      "name": "NZXT gaming",
+      "price": 500000,
+      "stock": 5,
+      "image": "https://asset-a.grid.id/crop/0x0:0x0/700x0/photo/2019/05/10/276150802.jpg",
+      "caption": "test-Caption C - The quick brown fox jumps over the lazy dog"
+    },
+    {
+      "id": 4,
+      "name": "Armagedon VenusV3",
+      "price": 600000,
+      "stock": 5,
+      "image": "https://ecs7.tokopedia.net/img/cache/700/product-1/2018/5/1/16655158/16655158_7a12b653-cf13-437d-bb24-43cfe4194b08_700_962.png",
+      "caption": "test-Caption D - The quick brown fox jumps over the lazy dog"
+    }
+  ],
+  "cartdb": [],
+  "transactiondb": [
+    {
+      "userID": 1,
+      "date": "2021-01-15T03:48:30.157Z",
+      "status": "NOT YET PAID",
+      "price": 3200000,
+      "cart": [
+        {
+          "userID": 1,
+          "name": "Digital Alliance UNICORN GAMING",
+          "price": 700000,
+          "qty": 2,
+          "stock": 6,
+          "image": "https://ecs7.tokopedia.net/img/cache/700/product-1/2019/7/23/67034112/67034112_7f237251-970b-4e3f-b853-ba2739814060_1000_1000.png",
+          "id": 1
+        },
+        {
+          "userID": 1,
+          "name": "Armagedon Nimitz",
+          "price": 900000,
+          "qty": 2,
+          "stock": 5,
+          "image": "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//94/MTA-3438742/armaggeddon_casing-pc-atx-armaggeddon-nimitz-tr5000_full02.jpg",
+          "id": 2
+        }
+      ],
+      "id": 1
+    },
+    {
+      "userID": 1,
+      "date": "2021-01-15T03:49:01.989Z",
+      "status": "NOT YET PAID",
+      "price": 500000,
+      "cart": [
+        {
+          "userID": 1,
+          "name": "NZXT gaming",
+          "price": 500000,
+          "qty": 1,
+          "stock": 5,
+          "image": "https://asset-a.grid.id/crop/0x0:0x0/700x0/photo/2019/05/10/276150802.jpg",
+          "id": 1
+        }
+      ],
+      "id": 2
+    },
+    {
+      "userID": 2,
+      "date": "2021-01-20T09:02:24.635Z",
+      "status": "NOT YET PAID",
+      "price": 1600000,
+      "cart": [
+        {
+          "userID": 2,
+          "name": "Digital Alliance UNICORN GAMING",
+          "price": 700000,
+          "qty": 1,
+          "stock": 6,
+          "image": "https://ecs7.tokopedia.net/img/cache/700/product-1/2019/7/23/67034112/67034112_7f237251-970b-4e3f-b853-ba2739814060_1000_1000.png",
+          "id": 1
+        },
+        {
+          "userID": 2,
+          "name": "Armagedon Nimitz",
+          "price": 900000,
+          "qty": 1,
+          "stock": 5,
+          "image": "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//94/MTA-3438742/armaggeddon_casing-pc-atx-armaggeddon-nimitz-tr5000_full02.jpg",
+          "id": 2
+        }
+      ],
+      "id": 3
+    },
+    {
+      "userID": 2,
+      "date": "2021-01-20T09:15:19.660Z",
+      "status": "NOT YET PAID",
+      "price": 700000,
+      "cart": [
+        {
+          "userID": 2,
+          "name": "Digital Alliance UNICORN GAMING",
+          "price": 700000,
+          "qty": 1,
+          "stock": 6,
+          "image": "https://ecs7.tokopedia.net/img/cache/700/product-1/2019/7/23/67034112/67034112_7f237251-970b-4e3f-b853-ba2739814060_1000_1000.png",
+          "id": 1
+        }
+      ],
+      "id": 4
+    }
+  ]
+}
